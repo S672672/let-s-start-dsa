@@ -12,7 +12,7 @@
 
 #if else statement in python
 name = input("Enter your name\n");
-if(name == "smith"):
-    print("hey king welcome");
+if(name != "smith"):
+    print("hey nalla");
 else:
-    print("bhag bsdk");
+    print("key king welcome");

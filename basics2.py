@@ -40,3 +40,16 @@
 # name, character = input("enter your name and any character").split(",");
 # print(f'hello length of your name is {len(name)} character count is:{name.count(character)}');
 
+#exercise
+# name = input("enter your name");
+# newName = name.title();
+# if(name):
+#     if(newName[0] == 'S'):
+#         print("king");
+#     else:
+#         print("queen");
+# else:
+#     print("naam lekh");
+
+#exercise again
+
