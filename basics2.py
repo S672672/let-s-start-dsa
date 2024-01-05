@@ -51,5 +51,18 @@
 # else:
 #     print("naam lekh");
 
-#exercise again
+#remove unused spaces 
+# lstrip()--removes the space before starting
+# rstrip()--removes the space of after ending
+#strip()--removes space from both end and starting
+#replace("original","new")--replaces old by new
+# name = '     sm ith     ';
+# lname = 'Bhattarai';
+# print(name.lstrip()+lname);
+# print(name.rstrip()+lname);
+# print(name.strip()+lname);
+# print(name.replace(" ","") + lname);
 
+#find method
+name = "my is name is smith bhattarai";
+print(name.find('is',4))
