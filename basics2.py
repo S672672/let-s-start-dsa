@@ -64,5 +64,18 @@
 # print(name.replace(" ","") + lname);
 
 #find method
-name = "my is name is smith bhattarai";
-print(name.find('is',4))
+# name = "my is name is smith bhattarai";
+# print(name.find('is',4))
+
+#center method --to add anything behind or infront of the variable
+# name = "smith"
+# print(name.center(7,'*'))
+
+#immutable property of string
+# name = "smith";
+# print(name[2]);
+
+#asssignment operators
+# name = "smith";
+# name = name + " " + "Bhattarai";
+# print(name)
