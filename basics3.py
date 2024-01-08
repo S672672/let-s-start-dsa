@@ -126,9 +126,42 @@
 # print(total);
 
 #exercise 2 for loop
-name = input("enter your name");
-var_name = ''
-for i in range(0,len(name)):
-    if name[i] not in var_name:
-        print(f"{name[i]} = {name.count(name[i])}");
-        var_name += name[i];
+# name = input("enter your name");
+# var_name = ''
+# for i in range(0,len(name)):
+#     if name[i] not in var_name:
+#         print(f"{name[i]} = {name.count(name[i])}");
+#         var_name += name[i];
+
+#Break and continue keyword
+# for i in range(1,11):
+#     if i == 5:
+#         break;
+#     print (i)
+
+#continue 
+# for i in range(1,10):
+#     if i == 5:
+#         continue;
+#     print(i);
+
+#exercise 6
+import random
+number = int(input("guess any number"));
+answer = random.randint(1,100);
+guess = 1;
+game_over = False;
+
+while not game_over:
+    if(number == answer):
+        print(f"you win in {guess} times");
+        game_over = True;
+    else:
+        if(number<answer):
+            print("too low");
+            guess += 1;
+            number = int(input("guess again"));
+        else:
+            print("too high");
+            guess += 1;
+            number = int(input("guess again"));
