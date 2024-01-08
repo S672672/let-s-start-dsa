@@ -47,3 +47,21 @@
 #     print("your name starts with s");
 # else:
 #     print("bhak bsdk");
+
+#exercise 4
+# age = int(input("enter your age"));
+# if(age<=3):
+#     print("you don't need to give any fare");
+# elif(age>=4 or age<=10):
+#     print("your ticket fare is 150");
+# elif(age<=11 or age<=60):
+#     print("your ticket fare is 250");
+# else:
+#     print("your ticket fare is 200");
+
+#in keyword = checks if it is present in the mentioned var
+# name = input("enter your name");
+# if 's' in name:
+#     print("you are king");
+# else:
+#     print("ayy gandu");
