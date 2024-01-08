@@ -65,3 +65,70 @@
 #     print("you are king");
 # else:
 #     print("ayy gandu");
+
+#checks if empty or not
+# name = input("enter your name");
+# if name:
+#     print(f"your name is {name}");
+# else:
+#     print("enter your name bsdk");
+
+#loops
+# i = 1;
+# while i<=10:
+#     print("smith Bhattarai");
+#     i = i + 1;
+
+#practice of the while loop
+# number = int(input("enter any number"));
+# i = 1;
+# while(i<=10):
+#     print(f"{number} * {i} = {number*i}");
+#     i = i+1;
+
+#sum of any number using while loop(exercise by harshit sir)
+# number = int(input("enter any number"));
+# i = 0;
+# total = 0;
+# while(i<=number):
+#     total = total + i;
+#     i = i + 1;
+# print(total);
+
+#exercise 4
+# number = input("enter any number");
+# total = 0;
+# i = 0;
+# while(i<len(number)):
+#     total += int(number[i]);
+#     i += 1;
+# print(total);
+
+#exercise 5:
+# name = input("enter your name");
+# i = 0;
+# while(i<len(name)):
+#     print(f'{name[i]} : {name.count(name[i])}');
+#     i = i + +1;
+
+#for loop
+# number = int(input("enter your name"));
+# total = 0;
+# for k in range(0,number):
+#     total += k;
+# print(total);
+
+#exercise for loop
+# number = input("enter any digit");
+# total = 0;
+# for i in range(0,len(number)):
+#     total += int(number[i]);
+# print(total);
+
+#exercise 2 for loop
+name = input("enter your name");
+var_name = ''
+for i in range(0,len(name)):
+    if name[i] not in var_name:
+        print(f"{name[i]} = {name.count(name[i])}");
+        var_name += name[i];
