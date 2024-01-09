@@ -22,7 +22,7 @@
 #step argument
 # name = "smith bhattarai";
 # print(name[0:15:2]);
-# print(name[0::2]);
+# print(name[::-1]);
 
 #exercise 2
 # name = input("enter your name");
