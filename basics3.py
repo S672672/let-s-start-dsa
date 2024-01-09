@@ -146,22 +146,61 @@
 #     print(i);
 
 #exercise 6
-import random
-number = int(input("guess any number"));
-answer = random.randint(1,100);
-guess = 1;
-game_over = False;
+# import random
+# number = int(input("guess any number"));
+# answer = random.randint(1,100);
+# guess = 1;
+# game_over = False;
 
-while not game_over:
-    if(number == answer):
-        print(f"you win in {guess} times");
-        game_over = True;
-    else:
-        if(number<answer):
-            print("too low");
-            guess += 1;
-            number = int(input("guess again"));
-        else:
-            print("too high");
-            guess += 1;
-            number = int(input("guess again"));
+# while not game_over:
+#     if(number == answer):
+#         print(f"you win in {guess} times");
+#         game_over = True;
+#     else:
+#         if(number<answer):
+#             print("too low");
+#             guess += 1;
+#             number = int(input("guess again"));
+#         else:
+#             print("too high");
+#             guess += 1;
+#             number = int(input("guess again"));
+
+#Dry principle--Don't repeat yourself
+# import random
+# number = int(input("guess any number"));
+# answer = random.randint(1,100);
+# guess = 1;
+# game_over = False;
+
+# while not game_over:
+#     if(number == answer):
+#         print(f"you win in {guess} times");
+#         game_over = True;
+#     else:
+#         if(number<answer):
+#             print("too low");
+#             guess += 1;
+#             number = int(input("guess again"));
+#         else:
+#             print("too high");
+#             guess += 1;
+#             number = int(input("guess again"));
+
+#step argument
+# for i in range(1,10,3): 
+#     print(i);
+
+# for i in range(10,0,-1):
+#     print(i);
+
+#for loop in string
+# name = input("enter your name");
+# for i in range(len(name)):
+#     print(name[i]);
+
+# number = input("enter any number");
+# total = 0;
+# for i in number:
+#     total += int(i);
+# print(total);
