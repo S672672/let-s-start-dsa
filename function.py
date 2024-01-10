@@ -39,19 +39,28 @@
 # is_palindrome(word);
 
 #fibonacci series
-def fibonacci(number):
-    a = 0;
-    b = 1;
-    if number == 1:
-        print(a);
-    elif number == 2:
-        print(a,b);
-    else:
-        print(a,b, end=" ");
-        for i in range(number-2):
-            c = a + b;
-            a = b;
-            b = c;
-            print(b,end = " ");
-number = int(input("enter the number"));
-fibonacci(number);
+# def fibonacci(number):
+#     a = 0;
+#     b = 1;
+#     if number == 1:
+#         print(a);
+#     elif number == 2:
+#         print(a,b);
+#     else:
+#         print(a,b, end=" ");
+#         for i in range(number-2):
+#             c = a + b;
+#             a = b;
+#             b = c;
+#             print(b,end = " ");
+# number = int(input("enter the number"));
+# fibonacci(number);
+
+#default parameters 
+def user_info(first_name,last_name,age = 22):
+    print("your first name is ",first_name);
+    print("your last name  is ",last_name);
+    print("you age is ",age);
+first_name = input("enter your first name");
+last_name = input("enter your last name");
+user_info(first_name,last_name);
