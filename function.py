@@ -56,11 +56,24 @@
 # number = int(input("enter the number"));
 # fibonacci(number);
 
-#default parameters 
-def user_info(first_name,last_name,age = 22):
-    print("your first name is ",first_name);
-    print("your last name  is ",last_name);
-    print("you age is ",age);
-first_name = input("enter your first name");
-last_name = input("enter your last name");
-user_info(first_name,last_name);
+# #default parameters 
+# def user_info(first_name,last_name,age = 22):
+#     print("your first name is ",first_name);
+#     print("your last name  is ",last_name);
+#     print("you age is ",age);
+# first_name = input("enter your first name");
+# last_name = input("enter your last name");
+# user_info(first_name,last_name);
+# #we should make default parameter at the last only
+
+#variable scope
+#scope of variable inside and outside the function - the scope of variable is only inside function
+x = 10;
+def fun1():
+    x = 7; #local variable
+    return x;
+def fun2():
+    y = 20;
+    print (y);
+fun2();
+print(x);
