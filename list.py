@@ -7,10 +7,15 @@
 # words = ["smith","bhattarai"];
 # print(words);
 
-mixed = [1,2,3,4,5,"six","seven",2.3,None];
-print(mixed);
-print(mixed[:2]); #slicing is same as index
-mixed[1] = 9;
-print(mixed);
-mixed[1:] = "hundred";
-print(mixed);
+# mixed = [1,2,3,4,5,"six","seven",2.3,None];
+# print(mixed);
+# print(mixed[:2]); #slicing is same as index
+# mixed[1] = 9;
+# print(mixed);
+# mixed[1:] = "hundred";
+# print(mixed);
+
+#Add data to the list
+fruits = ['apple','banana'];
+fruits.append('mango'); #adds data to the end of the list
+print(fruits);
