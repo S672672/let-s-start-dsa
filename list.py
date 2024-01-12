@@ -37,7 +37,7 @@
 # print(fruits)
 
 #to add data = append,extend,insert
-#to remove data = pop,remove,del
+#to remove data = pop,remove,clear,del
 
 #some more lists method
 #if present in list
@@ -63,3 +63,5 @@
 # number2 = [2,4,6,7,9];
 # print(number1 is number3)
 #'==' checks if the values are euqal but 'is' checks memory location
+
+
