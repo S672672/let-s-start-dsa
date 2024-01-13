@@ -25,4 +25,8 @@
 
 # lists = ['apple','banana','mango','guava'];
 # lists.clear();
-# print(lists)
+# print(lists);
+
+# lists = ['apple','banana','mango','guava'];
+# lists.reverse();
+# print(lists);

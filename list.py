@@ -64,4 +64,93 @@
 # print(number1 is number3)
 #'==' checks if the values are euqal but 'is' checks memory location
 
+#split vs join method --split method converts string to list and join method converts list to string
+# info = 'smith 22'.split();
+# print(info);
 
+# info = ['smith','22'];
+# print(",".join(info));
+
+#looping in List
+# fruits = ["orange","apple","pear","banana","apple"];
+# # for fruit in fruits:
+# #     print(fruit);
+# i = 0;
+# while i<len(fruits):
+#     print(fruits[i]);
+#     i+=1;
+
+#list inside list
+# matrix = [[1,2],[3,4],[5,6]];
+# print(matrix[1]);
+# for sublist in matrix:
+#     for i in sublist:
+#         print(i)
+# matrix = [[1,2],[3,4],[5,6]];
+# print(matrix[1][1])
+
+#more about lists
+#generate list with range function
+# lists = list(range(1,11))
+# # print(lists)
+# # lists.pop(); #pop method
+# # print(lists)
+# # print(lists.index(3))
+# def negative_lists(l):
+#     negative = [];
+#     for i in l:
+#         negative.append(-i);
+#     return negative;
+# print(negative_lists(lists))
+
+#exercise of list
+#define a function which will take list containing numbers as input and return list containing square of every element
+
+# def square_list(lists):
+#     square = [];
+#     for i in lists:
+#         square.append(i**2);
+#     return square;
+# numbers = list(range(1,10));
+# print(square_list(numbers));
+
+# def rev_lists(lists):
+#     second = [];
+#     for i in range(len(lists)):
+#         popped_item = lists.pop();
+#         second.append(popped_item)
+#     return second;
+# first = list(range(1,10));
+# print(first)
+# print(rev_lists(first))
+
+# def rev_lists(lists):
+#     second = [];
+#     for i in lists:
+#         second.append(i[::-1]);
+#     return second;
+# name = ['smith','bhattarai'];
+# print(rev_lists(name))
+
+# def numbers(lists):
+#     odd = []
+#     even = [];
+#     for i in lists:
+#         if(i%2 == 0):
+#             even.append(i);
+#         else:
+#             odd.append(i);
+#     output = [odd,even];
+#     return output;
+# num = [1,2,3,4,5,6,7,8,9,10];
+# print(numbers(num))
+
+# def two_lists(lists1,lists2):
+#     output = [];
+#     for i in lists1:
+#         if i in lists2:
+#             output.append(i);
+#     return output;
+# flist = [1,2,3,4,5,6];
+# slist = [2,5,9,10,11];
+# print(two_lists(flist,slist));
