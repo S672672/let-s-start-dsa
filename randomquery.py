@@ -106,3 +106,5 @@ for i in range(len(names)-1):
         names.remove(name);
 print(names);
 print(name);
+
+print("hello world")
