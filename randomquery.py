@@ -105,3 +105,4 @@ for i in range(len(names)-1):
     if name[0]=="S":
         names.remove(name);
 print(names);
+print(name);
