@@ -101,7 +101,7 @@ names = ["Sabin","Smith","Raj","Amit","Sandesh","Hahaha"];
 #        del names[i]
 # print(names)
 for i in range(len(names)-1):
-    name = names[i]
+    name = names[i];
     if name[0]=="S":
-        names.remove(name)
-print(names)
+        names.remove(name);
+print(names);
