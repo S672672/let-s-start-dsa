@@ -98,7 +98,7 @@
 names = ["Sabin","Smith","Raj","Amit","Sandesh","Hahaha"];
 # for i in range(0,len(names)-1):
 #     if names[i].startswith("S"):
-#        del names[i]
+#        del names[i];
 # print(names)
 for i in range(len(names)-1):
     name = names[i];
