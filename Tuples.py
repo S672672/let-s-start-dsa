@@ -36,3 +36,15 @@
 # print(min(mixed))
 # print(max(mixed))
 # print(sum(mixed))
+
+# info = ("smith",22,"btech",['6th sem','7th sem','8th sem']);
+# print(info[3].pop());
+
+
+def fun(year):
+    if year%4 == 0:
+        print(f"{year} is a leap year");
+    else:
+        print(f"{year} is not a leap year")
+yr = int(input('Enter the year '));
+fun(yr);
