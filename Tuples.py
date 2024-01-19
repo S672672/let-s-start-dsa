@@ -41,10 +41,20 @@
 # print(info[3].pop());
 
 
-def fun(year):
-    if year%4 == 0:
-        print(f"{year} is a leap year");
-    else:
-        print(f"{year} is not a leap year")
-yr = int(input('Enter the year '));
-fun(yr);
+# def fun(year):
+#     if year%4 == 0:
+#         print(f"{year} is a leap year");
+#     else:
+#         print(f"{year} is not a leap year")
+# yr = int(input('Enter the year '));
+# fun(yr);
+
+# def fun(word):
+#     word2 = word[::-1];
+#     print(word2)
+#     if(word == word2):
+#         print("palindrome");
+#     else:
+#         print("not palindrome");
+# wrd = input("enter the word ");
+# fun(wrd);
