@@ -108,3 +108,18 @@
 # print(name);
 
 # print("hello world")
+
+#word frequency counter
+def word_frequency_counter(string):
+    dictionary = {};
+    words = string.split();
+    for i in words:
+        i_lower = i.lower();
+        if i_lower in dictionary:
+            dictionary[i_lower] += 1;
+        else:
+            dictionary[i_lower] = 1;
+    return dictionary;
+sentence = input('Enter the sentence you want\n');
+result = word_frequency_counter(sentence)
+print(result)

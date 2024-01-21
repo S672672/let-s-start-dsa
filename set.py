@@ -4,6 +4,6 @@
 # print(set1);
 
 #adding two set
-name1 = {"smith","Bhattarai"};
-info = {"btech",22};
-print(name1.union(info));
+# name1 = {"smith","Bhattarai"};
+# info = {"btech",22};
+# print(name1.union(info));
