@@ -124,11 +124,21 @@
 # result = word_frequency_counter(sentence)
 # print(result)
 
-def is_palindrome(word):
-    word2 = word[::-1];
-    if word == word2:
-        print(f"{word} is palindrome");
-    else:
-        print(f"{word} is not palindrome");
-enter = input("enter the word\n");
-is_palindrome(enter)
+# def is_palindrome(word):
+#     word2 = word[::-1];
+#     if word == word2:
+#         print(f"{word} is palindrome");
+#     else:
+#         print(f"{word} is not palindrome");
+# enter = input("enter the word\n");
+# is_palindrome(enter)
+
+def fun(arr1):
+    arr2 = [];
+    for i in range(0,len(arr1)):
+        for j in range(i+1,len(arr1)):
+            if arr1[i]>arr1[j]:
+                arr2.append([i,j]);
+    return arr2;
+array1 = [2,5,7,1,4];
+print(fun(array1))
