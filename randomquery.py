@@ -133,12 +133,30 @@
 # enter = input("enter the word\n");
 # is_palindrome(enter)
 
-def fun(arr1):
-    arr2 = [];
-    for i in range(0,len(arr1)):
-        for j in range(i+1,len(arr1)):
-            if arr1[i]>arr1[j]:
-                arr2.append([i,j]);
-    return arr2;
-array1 = [2,5,7,1,4];
-print(fun(array1))
+# def fun(arr1):
+#     arr2 = [];
+#     for i in range(0,len(arr1)):
+#         for j in range(i+1,len(arr1)):
+#             if arr1[i]>arr1[j]:
+#                 arr2.append([i,j]);
+#     return arr2;
+# array1 = [2,5,7,1,4];
+# print(fun(array1))
+import random
+def randomPassword():
+    char = "abcdefghijklmnopqrstuvwxyz"
+    char2 = "ABCDEFGHIJKKLMNOPQRSTUVWXYZ"
+    spec = "!@#$%^&*"
+    num = "1234567890"
+    
+    start = input("Press Enter to start")
+    
+    password = ""
+    
+    for i in range(min(len(char), len(char2), len(spec), len(num))):
+        password += char[i] + char2[i] + spec[i] + num[i]
+    
+    print(password[:12])
+
+randomPassword()
+
