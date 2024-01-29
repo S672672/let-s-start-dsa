@@ -160,20 +160,28 @@
 
 # randomPassword()
 
-def check_all_alphabets(input_string):
-    input_string = input_string.lower()
+# def check_all_alphabets(input_string):
+    # input_string = input_string.lower()
+# 
+    # all_alphabets = 'abcdefghijklmnopqrstuvwxyz'
+# 
+    # if set(input_string) >= all_alphabets:
+        # return True
+    # else:
+        # return False
+# 
+# user_input = input("Enter a string: ")
+# result = check_all_alphabets(user_input)
+# 
+# if result:
+    # print("The string contains all the alphabets.")
+# else:
+    # print("The string does not contain all the alphabets.")
 
-    all_alphabets = 'abcdefghijklmnopqrstuvwxyz'
-
-    if set(input_string) >= all_alphabets:
-        return True
-    else:
-        return False
-
-user_input = input("Enter a string: ")
-result = check_all_alphabets(user_input)
-
-if result:
-    print("The string contains all the alphabets.")
-else:
-    print("The string does not contain all the alphabets.")
+def sort_names(names):
+    sorted_names = sorted(names)
+    return sorted_names
+names_list = ["Alice", "Bob", "Charlie", "David", "Eve"]
+sorted_names = sort_names(names_list)
+print("Original names:", names_list)
+print("Sorted names:", sorted_names)
