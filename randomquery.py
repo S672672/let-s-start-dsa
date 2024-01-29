@@ -142,21 +142,38 @@
 #     return arr2;
 # array1 = [2,5,7,1,4];
 # print(fun(array1))
-import random
-def randomPassword():
-    char = "abcdefghijklmnopqrstuvwxyz"
-    char2 = "ABCDEFGHIJKKLMNOPQRSTUVWXYZ"
-    spec = "!@#$%^&*"
-    num = "1234567890"
+# import random
+# def randomPassword():
+#     char = "abcdefghijklmnopqrstuvwxyz"
+#     char2 = "ABCDEFGHIJKKLMNOPQRSTUVWXYZ"
+#     spec = "!@#$%^&*"
+#     num = "1234567890"
     
-    start = input("Press Enter to start")
+#     start = input("Press Enter to start")
     
-    password = ""
+#     password = ""
     
-    for i in range(min(len(char), len(char2), len(spec), len(num))):
-        password += char[i] + char2[i] + spec[i] + num[i]
+#     for i in range(min(len(char), len(char2), len(spec), len(num))):
+#         password += char[i] + char2[i] + spec[i] + num[i]
     
-    print(password[:12])
+#     print(password[:12])
 
-randomPassword()
+# randomPassword()
 
+def check_all_alphabets(input_string):
+    input_string = input_string.lower()
+
+    all_alphabets = 'abcdefghijklmnopqrstuvwxyz'
+
+    if set(input_string) >= all_alphabets:
+        return True
+    else:
+        return False
+
+user_input = input("Enter a string: ")
+result = check_all_alphabets(user_input)
+
+if result:
+    print("The string contains all the alphabets.")
+else:
+    print("The string does not contain all the alphabets.")
